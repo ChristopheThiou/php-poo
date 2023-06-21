@@ -32,7 +32,9 @@ class Zoo {
             echo '</p>';
         }
     }
-
+    public function toHTML(): string {
+        return "<p>A zoo</p>";
+    }
 
 
 }

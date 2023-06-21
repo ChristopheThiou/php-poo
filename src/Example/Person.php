@@ -27,4 +27,7 @@ class Person extends Animal {
 		$this->lastName = $lastName;
 		return $this;
 	}
+	public function toHTML():string {
+		return "<div>{$this->name} {$this->lastName}</div>";
+	}
 }
